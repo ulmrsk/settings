@@ -1,0 +1,8 @@
+# General
+**/.DS_Store
+
+# Emacs
+emacs.d/backups/*
+!emacs.d/backups/_dummy.txt
+**/*~  # tmp-file
+**/*#  # tmp-file
