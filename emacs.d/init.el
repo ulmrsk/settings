@@ -97,7 +97,7 @@
 ;; Load separated configuration files
 ;; -----------------------------------------------------------------------------
 
-;(load "...")
+(load "mycolor")
 
 
 ;; End of manual settings
