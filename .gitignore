@@ -2,7 +2,8 @@
 **/.DS_Store
 
 # Emacs
+emacs.d/auto-save-list/
 emacs.d/backups/*
 !emacs.d/backups/_dummy.txt
-**/*~  # tmp-file
-**/*#  # tmp-file
+*~    # tmp file ends with ~
+*#    # tmp file ends with #
