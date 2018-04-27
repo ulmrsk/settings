@@ -1,4 +1,4 @@
-;; key bindings
+;; keybinds
 (keyboard-translate ?\C-h ?\C-?) ; backspace
 (define-key global-map (kbd "C-x ?") 'help-command)
 
@@ -10,16 +10,16 @@
 (define-key global-map (kbd "C-c l") 'toggle-truncate-lines)
 (define-key global-map (kbd "C-m") 'newline-and-indent)
 
-;; cursor position
+;; modeline
 (column-number-mode t)
 (line-number-mode t)
 (size-indication-mode t)
 
-;; frame settings
+;; frame
 (tool-bar-mode -1)
 (setq frame-title-format "%f")
 
-;; auto saving
+;; auto-saving
 (add-to-list 'backup-directory-alist
 	     (cons "." "~/.emacs.d/backups/"))
 (setq auto-save-file-name-transforms
@@ -98,7 +98,6 @@
 ;; -----------------------------------------------------------------------------
 
 (load "mycolor")
-
 
 ;; End of manual settings
 ;; -----------------------------------------------------------------------------
