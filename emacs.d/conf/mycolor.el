@@ -12,6 +12,9 @@
 (set-face-foreground 'font-lock-comment-face "gray70")
 (set-face-foreground 'font-lock-comment-delimiter-face "gray70")
 
+;; string
+(set-face-foreground 'font-lock-string-face "PeachPuff")
+
 ;; parentheses
 (setq show-paren-delay 0)
 (show-paren-mode t)
@@ -19,5 +22,4 @@
 (set-face-background 'show-paren-match-face "SeaGreen")
 
 ;; fringe
-
 (set-face-attribute 'fringe nil :background "gray40")
