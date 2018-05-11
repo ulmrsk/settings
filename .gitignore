@@ -7,3 +7,6 @@ emacs.d/backups/*
 !emacs.d/backups/_dummy.txt
 *~    # tmp file ends with ~
 *#    # tmp file ends with #
+emacs.d/eshell/
+emacs.d/recentf
+
