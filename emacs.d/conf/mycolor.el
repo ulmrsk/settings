@@ -8,12 +8,16 @@
 (set-face-foreground 'mode-line-inactive "gray50")
 (set-face-background 'mode-line-inactive "gray40")
 
-;; comment
+;; syntax highlight
+(set-face-foreground 'font-lock-type-face "#F1746C")
+(set-face-foreground 'font-lock-function-name-face "#FFA199")
+(set-face-foreground 'font-lock-variable-name-face "#FFCDD2")
+(set-face-foreground 'font-lock-string-face "#FFDA99")
+(set-face-foreground 'font-lock-keyword-face "#8FC9E9")
+(set-face-foreground 'font-lock-builtin-face "#C39CD5")
 (set-face-foreground 'font-lock-comment-face "gray70")
 (set-face-foreground 'font-lock-comment-delimiter-face "gray70")
-
-;; string
-(set-face-foreground 'font-lock-string-face "PeachPuff")
+(set-face-foreground 'font-lock-constant-face "#B9F6CA")
 
 ;; parentheses
 (setq show-paren-delay 0)
